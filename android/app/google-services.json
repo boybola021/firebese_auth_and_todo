@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "766093046078",
+    "project_id": "todos-ca85a",
+    "storage_bucket": "todos-ca85a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766093046078:android:af2cd5f9d0449b858bfc6f",
+        "android_client_info": {
+          "package_name": "com.pdp.g5.firebese_auth_and_todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0WcCym14t0daqS-dkhzkbkIHyM0T63hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
