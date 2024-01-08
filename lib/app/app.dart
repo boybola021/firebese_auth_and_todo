@@ -15,7 +15,7 @@ class App extends StatelessWidget {
 
   String get pages {
     List<UserSRC> list = localRepository.readUser();
-    String? email = AuthService.user.email ?? "";
+    debugPrint(list.toString());
     if (list.isEmpty) {
       return "sign_in_page.dart";
     } else {

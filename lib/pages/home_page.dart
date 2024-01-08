@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:firebase_auth_and_todo/cubit/todo_cubit/todo_cubit.dart';
 import 'package:firebase_auth_and_todo/pages/detail_page.dart';
 import 'package:firebase_auth_and_todo/services/auth_service.dart';
@@ -23,6 +24,7 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     BlocProvider.of<TodoCubit>(context).getAllTodo();
   }
+
   Future<void> deleteButton(BuildContext context,String id) async {
     return showDialog(
         context: context,
@@ -50,10 +52,6 @@ class _HomePageState extends State<HomePage> {
         });
   }
 
-  @override
-  void dispose() {
-    super.dispose();
-  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
